@@ -19,7 +19,7 @@ public class Main {
     public static void Retrieval_Term()
     {
         int choice1 ;
-        System.out.println("################### Retrieval Term ####################");
+        System.out.println("---- Retrieval Term ----");
         
         System.out.println("1. index");
         System.out.println("2. inverted index");
@@ -42,7 +42,7 @@ public class Main {
     public static void Boolean_Retrieval_menu()
     {
         int choice1 ;
-        System.out.println("################### Boolean Retrieval ####################");
+        System.out.println("---- Boolean Retrieval ----");
         
         System.out.println("1. index");
         System.out.println("2. inverted index");
@@ -66,7 +66,7 @@ public class Main {
 
     public static void Ranked_Retrieval_menu()
     {
-        System.out.println("######## Ranked Retrieval ######## ");
+        System.out.println("---- Ranked Retrieval ----");
         System.out.println("1. index");
         System.out.println("2. inverted index");
         System.out.println("3. inverted index using BST");
@@ -85,7 +85,7 @@ public class Main {
     
     public static void Indexed_Documents_menu()
     {
-        System.out.println("######## Indexed Documents ######## ");
+        System.out.println("---- Indexed Documents ----");
         System.out.println("Indexed Documents " );
         SE.Indexed_Documents();
         System.out.println("");
@@ -93,7 +93,7 @@ public class Main {
     
     public static void Indexed_Tokens_menu()
     {
-        System.out.println("######## Indexed Tokens ######## ");
+        System.out.println("---- Indexed Tokens ----");
         System.out.println("tokens " );
         SE.Indexed_Tokens();
         System.out.println("");

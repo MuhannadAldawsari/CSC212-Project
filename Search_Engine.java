@@ -50,7 +50,7 @@ public class Search_Engine {
                     data = data.substring(0, data.length() -1);// remove double cot from last line
 
                     data = data.toLowerCase();
-                    data = data.replaceAll("[\']", " ");// remove all dashes
+                    data = data.replaceAll("[\']", "");// remove all dashes
                     data = data.replaceAll("e-sports", "esports");//remove(-)
                     data = data.replaceAll("[^a-zA-Z0-9]", " ").trim() ; // remove anything except this
 
